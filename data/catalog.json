@@ -18,9 +18,9 @@
       "id": 1,
       "title": "Strawberry Choco",
       "category": "strawberry",
-      "price": 3200,
-      "oldPrice": null,
-      "image": "assets/images/dessert1.jpg"
+      "price": 3000,
+      "oldPrice": 3500,
+      "image": "assets/desserts/2.jpeg"
     },
     {
       "id": 2,
