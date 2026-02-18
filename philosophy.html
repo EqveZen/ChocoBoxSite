@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Философия — ChocoBox</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<script src="js/cartBadge.js"></script>
+
+<body>
+
+<header class="container" style="padding:30px 0; display:flex; justify-content:space-between;">
+  <a href="index.html"><img src="assets/images/logo.png" style="height:40px"></a>
+  <nav style="display:flex; gap:28px;">
+    <a href="catalog.html">Каталог</a>
+    <a href="delivery.html">Доставка</a>
+    <a href="philosophy.html">Философия</a>
+    <a href="faq.html">FAQ</a>
+	<a href="cart.html" style="position:relative;">
+    🛒
+    <span id="cart-count" style="
+      position:absolute;
+      top:-6px;
+      right:-10px;
+      background:#db0e5d;
+      color:#000;
+      font-size:12px;
+      padding:2px 6px;
+      border-radius:12px;
+      display:none;
+    ">0</span>
+  </a>
+  </nav>
+</header>
+
+<section class="container" style="margin:120px auto;">
+  <h1 class="fade-up" style="
+    font-size:56px;
+    letter-spacing:0.16em;
+    margin-bottom:60px;
+  ">
+    Философия ChocoBox
+  </h1>
+
+  <div class="fade-up" style="max-width:760px; font-size:18px; line-height:1.8; color:var(--text-secondary);">
+    <p>
+      ChocoBox — это про эмоции.  
+      Мы создаём не просто десерты, а визуальные и вкусовые впечатления.
+    </p>
+
+    <p style="margin-top:32px;">
+      Нас вдохновляет эстетика будущего, культура улиц и желание делать
+      продукт, который хочется фотографировать, дарить и запоминать.
+    </p>
+
+    <p style="margin-top:32px;">
+      Здесь ты можешь раскрыть историю бренда, ценности, подход и характер.
+    </p>
+  </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>

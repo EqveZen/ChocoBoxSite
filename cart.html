@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Корзина — ChocoBox</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<script src="js/cartBadge.js"></script>
+<body>
+
+<header class="container" style="padding:30px 0; display:flex; justify-content:space-between;">
+  <a href="index.html"><img src="assets/images/logo.png" style="height:40px"></a>
+  <nav style="display:flex; gap:28px;">
+    <a href="catalog.html">Каталог</a>
+    <a href="cart.html">Корзина</a>
+  </nav>
+</header>
+
+<section class="container" style="margin:100px auto;">
+  <h1 style="font-size:48px; margin-bottom:40px;">Корзина</h1>
+
+  <div id="cart-items"></div>
+
+  <div id="cart-total" style="margin-top:40px; font-size:22px;"></div>
+
+  <form onsubmit="event.preventDefault(); submitOrder();"
+      style="margin-top:40px; max-width:420px;">
+
+  <div class="order-form-wrapper">
+  <h2 class="order-title">Оформление заявки</h2>
+  <p class="order-subtitle">
+    Оставьте данные — мы свяжемся с вами для подтверждения
+  </p>
+
+  <form class="order-form" onsubmit="event.preventDefault(); submitOrder();">
+
+    <div class="form-group">
+      <input id="name" required placeholder=" ">
+      <label>Ваше имя</label>
+    </div>
+
+    <div class="form-group">
+      <input id="phone" required placeholder=" ">
+      <label>Телефон</label>
+    </div>
+<!-- СПОСОБ ПОЛУЧЕНИЯ -->
+	<div class="delivery-type">
+  <button type="button" class="delivery-option active" data-type="delivery">
+    🚚 Доставка
+  </button>
+  <button type="button" class="delivery-option" data-type="pickup">
+    🏠 Самовывоз
+  </button>
+</div>
+
+
+    <div class="form-row">
+      <div class="form-group">
+        <input type="date" id="date" required>
+        <label class="static">Дата доставки</label>
+      </div>
+
+      <div class="form-group">
+        <input type="time" id="time" required>
+        <label class="static">Время доставки</label>
+      </div>
+    </div>
+
+<div class="form-group" id="address-group">
+  <input id="address" placeholder=" ">
+  <label>Адрес доставки</label>
+</div>
+
+
+    <div class="form-group">
+      <textarea id="comment" rows="3" placeholder=" "></textarea>
+      <label>Комментарий к заказу</label>
+    </div>
+
+    <button class="btn-neon order-btn">
+      Отправить заявку
+    </button>
+
+  </form>
+</div>
+
+</section>
+
+<script src="js/cart.js"></script>
+<script src="js/cartPage.js"></script>
+<script src="js/order.js"></script>
+
+</body>
+</html>

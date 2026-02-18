@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ — ChocoBox</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<script src="js/cartBadge.js"></script>
+
+<body>
+
+<header class="container" style="padding:30px 0; display:flex; justify-content:space-between;">
+  <a href="index.html"><img src="assets/images/logo.png" style="height:40px"></a>
+  <nav style="display:flex; gap:28px;">
+    <a href="catalog.html">Каталог</a>
+    <a href="delivery.html">Доставка</a>
+    <a href="philosophy.html">Философия</a>
+    <a href="faq.html">FAQ</a>
+	<a href="cart.html" style="position:relative;">
+    🛒
+    <span id="cart-count" style="
+      position:absolute;
+      top:-6px;
+      right:-10px;
+      background:#db0e5d;
+      color:#000;
+      font-size:12px;
+      padding:2px 6px;
+      border-radius:12px;
+      display:none;
+    ">0</span>
+  </a>
+  </nav>
+</header>
+
+<section class="container" style="margin:100px auto; max-width:900px;">
+  <h1 style="font-size:48px; letter-spacing:0.14em; margin-bottom:60px;">
+    FAQ
+  </h1>
+
+  <div class="faq-item">
+    <button class="faq-question">Как оформить заказ?</button>
+    <div class="faq-answer">
+      <p>Пока сайт работает как витрина. Заказы принимаются через сообщения.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">За сколько времени нужно заказывать?</button>
+    <div class="faq-answer">
+      <p>Ты можешь указать нужные сроки изготовления.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Можно ли сделать индивидуальный заказ?</button>
+    <div class="faq-answer">
+      <p>Да, опиши свои условия и возможности.</p>
+    </div>
+  </div>
+</section>
+
+<script src="js/ui.js"></script>
+</body>
+</html>
