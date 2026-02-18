@@ -1,42 +1,56 @@
 {
   "categories": [
-    {
-      "id": "strawberry",
-      "title": "Клубника в шоколаде"
-    },
-    {
-      "id": "boxes",
-      "title": "Подарочные боксы"
-    },
-    {
-      "id": "special",
-      "title": "Спецпредложения"
-    }
+    
+	{ "id": "strawberry","title": "Клубника в шоколаде" },
+
+    {  "id": "boxes", "title": "Подарочные боксы" },
+
+    { "id": "special", "title": "Спецпредложения" },
+
+	{ "id": "flower", "title": "Искуственный букет" }
   ],
-  "products": [
-    {
+ 
+	"products": [
+    
+		{
       "id": 1,
       "title": "Strawberry Choco",
       "category": "strawberry",
       "price": 3000,
       "oldPrice": 3500,
       "image": "assets/desserts/2.jpeg"
-    },
-    {
+		},
+
+    	{
       "id": 2,
       "title": "Berry Neon Box",
       "category": "boxes",
       "price": 3200,
       "oldPrice": 3800,
       "image": "assets/images/dessert2.jpg"
-    },
-    {
+    	},
+
+    	{
       "id": 3,
-      "title": "Choco Deluxe",
+      "title": "МАСЛЕНИЦА НАБОР разноцветных блинов 20 шт Цвета навыбор.",
       "category": "special",
-      "price": 4500,
+      "price": 1999,
       "oldPrice": null,
-      "image": "assets/images/dessert3.jpg"
-    }
+      "image": "assets/images/blincolor.jpg"
+    },
+	{
+  "id": 4,
+  "title": "Искусственные розы из атласной ленты",
+  "category": "flower",
+  "price": 3200,
+  "oldPrice": 3800,
+  "images": [
+    "assets/images/rose1s.jpeg",
+    "assets/images/rose2s.jpeg"
+  ],
+  "badges": ["hit", "new"]
+}
+
+
   ]
 }
