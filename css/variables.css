@@ -1,0 +1,29 @@
+:root {
+  /* === BACKGROUND === */
+  --bg-main: #0b0b0e;
+  --bg-secondary: #0f0f13;
+  --bg-card: #14141a;
+
+  /* === TEXT === */
+  --text-main: #ffffff;
+  --text-secondary: #cfcfd4;
+  --text-muted: #8b8b96;
+
+  /* === ACCENTS === */
+  --pink-neon: #db0e5d;
+  --blue-neon: #1eb5d9;
+  --yellow-neon: #ffff33;
+  --green-neon: #59b636;
+
+  /* === GLOW === */
+  --glow-pink: 0 0 12px rgba(219, 14, 93, 0.6);
+  --glow-blue: 0 0 12px rgba(30, 181, 217, 0.6);
+  --glow-yellow: 0 0 10px rgba(255, 255, 51, 0.6);
+
+  /* === TRANSITIONS === */
+  --transition-fast: 0.3s ease;
+  --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* === BORDERS === */
+  --border-neon: 1px solid rgba(255,255,255,0.08);
+}
