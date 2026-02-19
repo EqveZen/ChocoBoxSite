@@ -22,6 +22,7 @@
     "assets/images/chocolate-covered strawberries/chocolate-covered strawberries.jpeg",
     "assets/images/chocolate-covered strawberries/chocolate-covered strawberries macro.jpeg"
   ],
+
   "badges": ["hit"]
 },
 
@@ -40,11 +41,15 @@
       "category": "special",
       "price": 1999,
       "oldPrice": null,
-      "image": "assets/images/blincolor.jpg"
+      "images": [
+			"assets/images/blincolor.jpg",
+			"assets/images/blincolor2.jpg" ],
+			"badges": ["hit", "new"]
     },
 	{
   "id": 4,
   "title": "Искусственные розы из атласной ленты",
+	"description": "Ручная работа. Долго сохраняют форму и внешний вид.",
   "category": "flower",
   "price": 3200,
   "oldPrice": 3800,
