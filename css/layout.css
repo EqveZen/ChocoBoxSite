@@ -22,3 +22,29 @@ a {
   margin: 0 auto;
   padding: 0 24px;
 }
+
+/* === MAIN BACKGROUND === */
+
+body {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(219,14,93,0.18),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(110,70,255,0.18),
+      transparent 45%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(10,10,14,0.92),
+      rgba(6,6,10,0.96)
+    ),
+    url("../assets/images/bg-main.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
