@@ -347,3 +347,10 @@ input[type="time"] {
 .news-card:hover {
   box-shadow: var(--glow-pink);
 }
+
+.card-desc {
+  margin: 6px 0 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.7);
+}
