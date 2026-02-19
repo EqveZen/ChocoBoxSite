@@ -47,27 +47,31 @@
       <label>Телефон</label>
     </div>
 <!-- СПОСОБ ПОЛУЧЕНИЯ -->
-	<div class="delivery-type">
-  <button type="button" class="delivery-option active" data-type="delivery">
-    🚚 Доставка
-  </button>
-  <button type="button" class="delivery-option" data-type="pickup">
-    🏠 Самовывоз
-  </button>
+	<!-- СПОСОБ ПОЛУЧЕНИЯ -->
+<div class="delivery-section">
+  <div class="delivery-type">
+    <button type="button" class="delivery-option active" data-type="delivery">
+      🚚 Доставка
+    </button>
+    <button type="button" class="delivery-option" data-type="pickup">
+      🏠 Самовывоз
+    </button>
+  </div>
 </div>
 
+<!-- ДАТА И ВРЕМЯ -->
+<div class="form-row date-time-row">
+  <div class="form-group">
+    <label class="static">Дата доставки</label>
+    <input type="date" id="date" required>
+  </div>
 
-    <div class="form-row">
-      <div class="form-group">
-        <input type="date" id="date" required>
-        <label class="static">Дата доставки</label>
-      </div>
+  <div class="form-group">
+    <label class="static">Время доставки</label>
+    <input type="time" id="time" required>
+  </div>
+</div>
 
-      <div class="form-group">
-        <input type="time" id="time" required>
-        <label class="static">Время доставки</label>
-      </div>
-    </div>
 
 <div class="form-group" id="address-group">
   <input id="address" placeholder=" ">
