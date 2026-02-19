@@ -13,13 +13,17 @@
 	"products": [
     
 		{
-      "id": 1,
-      "title": "Strawberry Choco",
-      "category": "strawberry",
-      "price": 3000,
-      "oldPrice": 3500,
-      "image": "assets/desserts/2.jpeg"
-		},
+  "id": 1,
+  "title": "Коубника в шоколаде с голубикой 9 шт. ",
+  "category": "strawberry",
+  "price": 3200,
+  "oldPrice": 3800,
+  "images": [
+    "assets/images/chocolate-covered strawberries/chocolate-covered strawberries.jpeg",
+    "assets/images/chocolate-covered strawberries/chocolate-covered strawberries macro.jpeg"
+  ],
+  "badges": ["hit"]
+},
 
     	{
       "id": 2,

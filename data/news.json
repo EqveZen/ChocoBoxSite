@@ -1,0 +1,9 @@
+{
+  "news": [
+    {
+      "id": 2,
+      "image": "assets/news/blin1.png",
+      "link": "catalog.html"
+    }
+  ]
+}
